@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial, sans-serif;
+   
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.header {
+    border: 2px solid rgb(78, 30, 30);
+  
+   padding: 20px;
+   text-align: center;
+
+}
+.header h1{
+    color: rgb(32, 110, 84);
+}
+
+/* Style cho nhãn và ô input */
+label {
+  display: flex;
+   font-size: 16px;
+   margin-left: 60px;
+   margin-bottom: 10px;
+  
+}
+
+input[type="email"],
+input[type="password"] {
+   width: 70%;
+   padding: 10px;
+   margin-bottom: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+/* Style cho nút đăng nhập */
+button {
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+    margin-left: 20px;
+   width: 40vh;
+   padding: 10px 20px;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #0056b3;
+}
+
